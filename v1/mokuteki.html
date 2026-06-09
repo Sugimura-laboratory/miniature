@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>IoTミニチュアハウス紹介サイト</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="IoT教育の課題解決を目指したミニチュアハウスの利用方法と目的を説明します">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div id="container">
+
+<header>
+
+<!--メニュー-->
+    <nav id="menubar">
+        <ul>
+          <li><a href="index.html">トップ</a></li>
+          <li><a href="gaiyou.html">IoTミニチュアハウスとは</a></li>
+          <li><a href="mokuteki.html">開発目的</a></li>
+          <li><a href="teian.html">教育提案</a></li>
+          <li class="ddmenu_parent">
+            <a href="tannkinou.html" class="ddmenu">Miniature Set</a>
+            <ul>
+              <li><a href="tannkinou.html">Miniature Set</a></li>
+              <li><a href="Development board installation instructions-Ver.0.02ax.pdf">Miniature Set Manual</a></li>
+              <li><a href="Miniature Set Parts .pdf">Miniature Set追加パーツ</a></li>
+              <li><a href="https://github.com/Hiroshi-Sugimura/EL-Firmwares-for-Miniature" class="ddmenu">Miniature Set Firmware</a></li>
+                  <ul>
+                  <li><a href="https://github.com/Hiroshi-Sugimura/EL-Firmwares-for-Miniature">Firmware LTS版</a></li>
+                  <li><a href="https://github.com/Hiroshi-Sugimura/EL-Firmwares-for-Miniature/tree/SerialESPWiFiConfigrator-Compatible">Firmware α版<br> (Wi-Fi Configurator対応)</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="osirase.company.html">お知らせ、経緯など</a></li>
+          <li><a href="https://sugi-lab.notion.site/1ca39dcd62488038bbdbfbbe3eaa5f50?pvs=105">お問い合わせ</a></li>
+          <li><a href="subete.company.html">関連技術紹介</a></li>
+        </ul>
+      </nav>
+
+<!--開閉ボタン（ハンバーガーアイコン）-->
+<div id="menubar_hdr">
+  <span></span><span></span><span></span>
+</div>
+
+</header>
+
+<main>
+
+<article>
+
+<h2>開発目的</h2>
+<figure><img src="images/mokuteki.jpg" alt="IoT教育の目的"></figure>
+<p>IoT教育の普及が進まない、3つの課題に対応した教育用教材の開発を目指しました。</p>
+
+<h2>IoT教育の実習における課題</h2>
+<figure><img src="images/mokuteki2.png" alt="IoT教育の課題"></figure>
+
+<table class="ta1">
+  <tbody>
+    <tr>
+      <th>その1</th>
+      <td>大型機器・家屋の設置と保管が困難</td>
+    </tr>
+    <tr>
+      <th>その2</th>
+      <td>実際のIoT機器に準じた個別IPアドレスの割り振りが現状シミュレーター、エミュレーターだと困難</td>
+    </tr>
+    <tr>
+      <th>その3</th>
+      <td>本物を持っていくことは持ち運びが困難</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>ミニチュアハウスでの課題解決</h2>
+<figure><img src="images/kadaikaiketu.png" alt="課題解決1"></figure>
+<figure><img src="images/kadaikaketu2.png" alt="課題解決2"></figure>
+<figure><img src="images/kadaikaiketu3.png" alt="課題解決3"></figure>
+
+</article>
+
+</main>
+
+<footer>
+  <small>Copyright&copy; <a href="index.html">IoTミニチュアハウス紹介サイト</a> All Rights Reserved.</small>
+  <span class="pr"><a href="https://template-party.com/" target="_blank">《Web Design:Template-Party》</a></span>
+</footer>
+
+</div>
+<!--/#container-->
+
+<!--jQueryの読み込み-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!--パララックス（inview）-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js"></script>
+<script src="js/jquery.inview_set.js"></script>
+
+<!--このテンプレート専用のスクリプト-->
+<script src="js/main.js"></script>
+
+<!--ページの上部へ戻るボタン-->
+<div class="pagetop"><a href="#"><i class="fas fa-angle-double-up"></i></a></div>
+
+</body>
+</html>

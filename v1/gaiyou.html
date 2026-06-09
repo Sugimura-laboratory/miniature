@@ -2,9 +2,8 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<title>企業・ビジネスサイト向け 無料ホームページテンプレート tp_biz59</title>
+<title>IoTミニチュアハウス紹介サイト</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="ここにサイト説明を入れます">
 <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -14,22 +13,34 @@
 
 <header>
 
-<h1 id="logo"><a href="index.html"><img src="images/logo.png" alt="SAMPLE COMPANY"></a></h1>
+<!--<h1 id="logo"><a href="index.html"><img src="images/logo.png" alt="SAMPLE COMPANY"></a></h1>
 
-<!--メニュー-->
-<nav id="menubar">
-<ul>
-<li><a href="index.html">トップ</a></li>
-<li><a href="gaiyou.html">ミニチュアハウスとは何か</a></li>
-<li><a href="mokuteki.html">利用方法・目的</a></li>
-<li><a href="mokuteki.html">目的・アピールポイント</a></li>
-<li><a href="teian.html">教育提案</a></li>
-<li><a href="osirase.company.html">お知らせ、経緯など</a></li>
-<li><a href="otoiawase.company.html">お問い合わせ</a></li>
-<li><a href="subete.company.html">関連技術紹介</a></li>
-
-</ul>
-</nav>
+<!メニュー-->
+    <nav id="menubar">
+        <ul>
+          <li><a href="index.html">トップ</a></li>
+          <li><a href="gaiyou.html">IoTミニチュアハウスとは</a></li>
+          <li><a href="mokuteki.html">開発目的</a></li>
+          <li><a href="teian.html">教育提案</a></li>
+          <li class="ddmenu_parent">
+            <a href="tannkinou.html" class="ddmenu">Miniature Set</a>
+            <ul>
+              <li><a href="tannkinou.html">Miniature Set</a></li>
+              <li><a href="Development board installation instructions-Ver.0.02ax.pdf">Miniature Set Manual</a></li>
+              <li><a href="Miniature Set Parts .pdf">Miniature Set追加パーツ</a></li>
+              <li><a href="https://github.com/Hiroshi-Sugimura/EL-Firmwares-for-Miniature" class="ddmenu">Miniature Set Firmware</a></li>
+                  <ul>
+                  <li><a href="https://github.com/Hiroshi-Sugimura/EL-Firmwares-for-Miniature">Firmware LTS版</a></li>
+                  <li><a href="https://github.com/Hiroshi-Sugimura/EL-Firmwares-for-Miniature/tree/SerialESPWiFiConfigrator-Compatible">Firmware α版<br> (Wi-Fi Configurator対応)</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="osirase.company.html">お知らせ、経緯など</a></li>
+          <li><a href="https://sugi-lab.notion.site/1ca39dcd62488038bbdbfbbe3eaa5f50?pvs=105">お問い合わせ</a></li>
+          <li><a href="subete.company.html">関連技術紹介</a></li>
+        </ul>
+      </nav>
 
 <!--開閉ボタン（ハンバーガーアイコン）-->
 <div id="menubar_hdr">
@@ -42,54 +53,59 @@
 
 <article>
 
-<h1>IoTミニチュアハウスとは何か</h1>
-
-<p><img src="images/103_20240912153434.png" alt=""></p>
-<h1>　本物家電と通信ができるハードウェアシミュレーター</h1>
+<h1>IoTミニチュアハウスとは</h1>
+<p><img src="images/103_20240912153434.png" alt="IoTミニチュアハウスの基本画像"></p>
+<h1>本物の家電と同じ通信をするハードウェアエミュレーター</h1>
 <hr>
-<h2>背景</h2>
-<p>社会人教育、学校では工業高校科目、中学技術科目など、様々な教育場面でIoT教育が求められています。さらに高校の教育指導要領工業編では「工業の各分野に関する先端的技術に関わる内容について自ら学び、工業の発展に主体的かつ協働的に取り組むこと。」とあり、推奨内容に「省エネ住宅やスマートハウスに関する実習」の記載があります。さらに中学校の技術分野指導要領では「エネルギーの変換や伝達等に関わる基本的な技術の仕組み及び保守点検の必要性について理解すること。」そして「計測・制御システムの仕組みを理解し、安全・適切なプログラムの「製作・動作の確認及びデバッグ等ができること。」との記載があり、シミュレーション等を用いた体験的な授業を推奨する記述がありました。しかし、本物の家電で授業を行うとなると金銭的な問題や社内や学内のネットワークのセキュリティ問題、持ち運び問題があります。そこで私達はそれらの問題を解決し、低レベルの	IoT教育から高度な社会人教育まで使用可能な、IoTミニチュアを作りました。</p>
+
 <h2>IoTミニチュアハウスの基本構造</h2>
 <h2>
   <figure>
-    <img src="images/IMG_0275.jpg" alt="">
+    <img src="images/IMG_1224.jpeg" alt="基本構造の画像">
   </figure>
 </h2>
 <figure>
   <figcaption>
     <p>収納状態</p>
+    <h2>
+  <figure>
+    <img src="images/miniaturesyuunou.png" alt="収納状態の画像">
+  </figure>
+</h2>
     <p>IoTミニチュアハウスをスーツケースに収まるサイズにしたことで持ち運びがしやすく。様々な場所に持っていく事ができます。</p>
   </figcaption>
 </figure>
 
-<h2>Wi-Fi構成</h2>
+<h2>ネットワークの構成</h2>
 <h2>
   <figure>
-    <img src="images/image.png" alt="">
+    <img src="images/miniaturenet.svg" alt="ネットワーク構成の画像">
   </figure>
 </h2>
 <figure>
   <figcaption>
-    <p>IoTミニチュアハウスのネットワーク構成</p>
-	  <p>内部にRasberry PiとWi-Fiルータを搭載する事でスマートフォンテザリングや学内Wi-Fiで操作可能</p>	
+    <p>IoTミニチュアハウスのネットワーク構成です</p>
+	  <p>ミニチュアハウス内にWi-FIルーターを搭載することで実際の家庭と同様のネットワークを再現しています。</p>
   </figcaption>
 </figure>
-	<h2>ミニチュア家電</h2>
-<div class="list-container">
-  
+	<h2>ミニチュア家電配置</h2>
+  <figure><img src="images/haiti.png" alt="ミニチュアハウス家具配置の画像"></figure>
+  <h2>各ミニチュア家電紹介</h2>
+  <div class="list-container">
+
   <div class="list blur">
-    <figure><img src="images/sample1.jpg" alt=""></figure>
+    <figure><img src="images/meter.jpg" alt="家具紹介画像1"></figure>
     <div class="text">
-      <h4>スマートメーター  </h4>
+      <h4>スマートメーター</h4>
       <p>・電力量を測る機器</p>
       <p>・瞬時電力，積算電力，電圧，電流データを保持  </p>
       <p>・機器のリアルタイム電力計測機能を実装予定</p>
       </div>
-    <span class="new">NEW</span>
+
     </div>
-  
+
   <div class="list blur">
-    <figure><img src="images/103_20240912142845.png" alt=""></figure>
+    <figure><img src="images/103_20240912142845.png" alt="家具紹介画像2"></figure>
     <div class="text">
       <h4>鍵付き玄関扉</h4>
       <p>・電動でカギを開閉</p>
@@ -97,23 +113,22 @@
       <p>・扉の開閉可能</p>
       </div>
     </div>
-  
+
   <div class="list blur">
-    <figure><img src="images/walllight.jpg" alt=""></figure>
+    <figure><img src="images/walllight.jpg" alt="家具紹介画像3"></figure>
     <div class="text">
       <h4>壁証明</h4>
       <p>・調光照明</p>
       <p>・照明向き調整可能</p>
       </div>
     </div>
-  
+
 </div>
 <!--/.list-container-->
-
 <p class="btn mt30"><a href="service.html" class="ws">もっとみる</a></p>
-	
-<p>お家に搭載されている機器や家電をミニチュアで再現しました</p>
-	
+
+
+
 </article>
 
 </main>

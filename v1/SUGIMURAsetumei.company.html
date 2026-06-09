@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<title>お知らせページ</title>
+<title>IoTミニチュアハウス紹介サイト</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="ここにサイト説明を入れます">
 <link rel="stylesheet" href="css/style.css">
@@ -14,78 +14,106 @@
 
 <header>
 
-<h1 id="logo"><a href="index.html"><img src="images/logo.png" alt="SAMPLE COMPANY"></a></h1>
+
 
 <!--メニュー-->
-<nav id="menubar">
-<ul>
-<li><a href="index.html">HOME</a></li>
-<li><a href="company.html">COMPANY</a></li>
-<li><a href="">SERVICE</a>
-	<ul>
-	<li><a href="service.html">メニューメニュー</a></li>
-	<li><a href="service.html">メニュー</a></li>
-	<li><a href="service.html">メニュー</a></li>
-	<li><a href="service.html">メニュー</a></li>
-	</ul>
-</li>
-<li><a href="faq.html">FAQ</a></li>
-<li><a href="contact.html">CONTACT</a></li>
-<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-</ul>
-</nav>
+    <nav id="menubar">
+        <ul>
+          <li><a href="index.html">トップ</a></li>
+          <li><a href="gaiyou.html">IoTミニチュアハウスとは</a></li>
+          <li><a href="mokuteki.html">開発目的</a></li>
+          <li><a href="teian.html">教育提案</a></li>
+          <li class="ddmenu_parent">
+            <a href="tannkinou.html" class="ddmenu">Miniature Set</a>
+            <ul>
+              <li><a href="tannkinou.html">Miniature Set</a></li>
+              <li><a href="Development board installation instructions-Ver.0.02ax.pdf">Miniature Set Manual</a></li>
+              <li><a href="Miniature Set Parts .pdf">Miniature Set追加パーツ</a></li>
+              <li><a href="https://github.com/Hiroshi-Sugimura/EL-Firmwares-for-Miniature" class="ddmenu">Miniature Set Firmware</a></li>
+                  <ul>
+                  <li><a href="https://github.com/Hiroshi-Sugimura/EL-Firmwares-for-Miniature">Firmware LTS版</a></li>
+                  <li><a href="https://github.com/Hiroshi-Sugimura/EL-Firmwares-for-Miniature/tree/SerialESPWiFiConfigrator-Compatible">Firmware α版<br> (Wi-Fi Configurator対応)</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="osirase.company.html">お知らせ、経緯など</a></li>
+          <li><a href="https://sugi-lab.notion.site/1ca39dcd62488038bbdbfbbe3eaa5f50?pvs=105">お問い合わせ</a></li>
+          <li><a href="subete.company.html">関連技術紹介</a></li>
+        </ul>
+      </nav>
 
 <!--開閉ボタン（ハンバーガーアイコン）-->
 <div id="menubar_hdr">
-<span></span><span></span><span></span>
-</div>
+	<span></span><span></span><span></span>
+	</div>
 
-</header>
+	</header>
 
-<main>
+	<main>
 
-<section>
+	<section>
 
-<h2>杉村研究室</h2>
+	<h1>神奈川工科大学<br>杉村研究室</h1>
+	<p>IoT　Programming　Lab</p>
 
-<table class="ta1">
-<caption>
+	<table class="ta4">
+	<h2>研究概要</h2>
+	<!DOCTYPE html>
 
-
-
-<h2>杉村研究室</h2>
-<p>aaaaaaaaaaaaaaaaaaaaaaa</p>
-
-
-
-
-
-
-
+	<table>
+    <tr>
+        <td><img src="images/SUGIMURAKEN.jpg" width="400" alt="" align=""right"></td>
+        <td>&nbsp;</td>
+        <td>杉村研究室では「人間が直接機械を操作せずに安心で快適な暮らしをする」というテーマのもと、<br>
+					家電をネットワークにつなぎ、住人のサポートを行うシステムを研究しています。<br><br>
+				また、日本のスマートハウス対応インターネット家電のほとんどはこのプロトコルで遠隔操作できるため、<br>
+				ECHONET Liteのプログラミング教育に力を入れています。<br><br>
+			  IoTミニチュアハウスは杉村研究室と、ものづくりサークル「Life Hackers」の協力で開発しました。<br>
+				 <p class="btn mt30"><a href="https://www.sugi-lab.net/" class="ws">杉村研究室のWebサイトはこちら</a></p>
+			</td>
+    </tr>
 </table>
 
 
 
 
-</section>
 
-</main>
-
-<footer>
-
-<ul id="footermenu">
-<li><a href="#">フッターメニュー</a></li>
-<li><a href="#">フッターメニュー</a></li>
-<li><a href="#">フッターメニュー</a></li>
-<li><a href="#">フッターメニュー</a></li>
-<li><a href="#">フッターメニュー</a></li>
-</ul>
+	</table>
 
 
 
 
+	</section>
 
-</body>
-</html>
+	</main>
+
+
+
+	<footer>
+
+
+
+	<small>Copyright&copy; <a href="index.html">SAMPLE COMPANY</a> All Rights Reserved.</small>
+	<span class="pr"><a href="https://template-party.com/" target="_blank">《Web Design:Template-Party》</a></span>
+
+	</footer>
+
+	</div>
+	<!--/#container-->
+
+	<!--jQueryの読み込み-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+	<!--パララックス（inview）-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js"></script>
+	<script src="js/jquery.inview_set.js"></script>
+
+	<!--このテンプレート専用のスクリプト-->
+	<script src="js/main.js"></script>
+
+	<!--ページの上部へ戻るボタン-->
+	<div class="pagetop"><a href="#"><i class="fas fa-angle-double-up"></i></a></div>
+
+	</body>
+	</html>
