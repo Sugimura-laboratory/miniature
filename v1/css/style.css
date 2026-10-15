@@ -743,7 +743,7 @@ p.btn {
     border: none;
     font-size: 1.1em;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
-    background: #3498db;
+    background: #2373a8;
     letter-spacing: 0.1em;
     color: #fff;
     transition: all 0.3s ease;
@@ -755,7 +755,7 @@ p.btn {
 
 .btn a:hover,
 .btn input:hover {
-    background: #2980b9;
+    background: #1a5f8f;
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
